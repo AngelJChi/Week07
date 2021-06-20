@@ -21,7 +21,7 @@ int main(){
 	} else {
 		calificacion = 'F';
 
-	printf("La calificacion is %c\n", calificacion);
+	printf("La calificacion es %c\n", calificacion);
 
 	return 0;
 }
