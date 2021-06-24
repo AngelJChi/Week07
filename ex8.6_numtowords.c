@@ -34,5 +34,5 @@ int main(){
 
 		default : printf("\n ERROR: %i no es un numero")
 
-	return 0;
+	return 0; 
 }
