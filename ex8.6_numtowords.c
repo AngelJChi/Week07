@@ -2,11 +2,13 @@
 
 int main(){
 
+	char line[100];
 	int numero;
 	char palabra;
 
 	printf("Escriba un numero: \n");
-	scanf("%i", &numero);
+	fgets(line, sizeof(line), stdin);
+	sscanf("%i", &numero);
 
 	switch (numero) {
 		case '0' : printf("\n zero");
