@@ -2,19 +2,19 @@
 
 int main(){
 
-	char linea[100];
+	char line[100];
 	float horas;
 	float salario;
 	float horas_extra;
 	float pago;
 
 	printf("Escriba la cantidad de horas trabajadas; ");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, "%f", &horas);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%f", &horas);
 
 	printf("Escriba el salario: ");
-	fgets(linea sizeof(linea), stdin);
-	sscanf(linea, "%f", &salario);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%f", &salario);
 
 	if (horas > 40.0) {
 		horas_extra = (horas - 40.0) * 1.5;
