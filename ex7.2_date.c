@@ -3,7 +3,7 @@
 
 int main(){
 
-	char linea[100];
+	char line[100];
 
 	int inicio_mes;
 	int inicio_dia;
@@ -23,8 +23,8 @@ int main(){
 
 
 	printf("Escribe la fecha inicial (mm/dd/yyyy): ");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, "%d/%d/%d", &inicio_mes, &inicio_dia, &inicio_year);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%d/%d/%d", &inicio_mes, &inicio_dia, &inicio_year);
 
 
 	printf("DEBUG:main(): la fecha es %d/%d/%d\n",
@@ -36,8 +36,8 @@ int main(){
 
 
 	printf("Escriba la fecha final (mm/dd/yyyy): ");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, "%d/%d/%d", &final_mes, &final_dia, &final_year);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%d/%d/%d", &final_mes, &final_dia, &final_year);
 
 
 	printf("DEBUG:main(): la fecha es %d/%d/%d\n", final_mes, final_dia, final_year);
