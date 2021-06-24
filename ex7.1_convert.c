@@ -7,7 +7,7 @@ int main(){
 	const float PULGADAS_A_CENTIMETROS = 2.54;
 	const float PIES_A_METROS      = 0.3048;
 
-	char linea[100];
+	char line[100];
 	char tipode_unidad;
 	float valor_unidad;
 	float resultado;
@@ -21,8 +21,8 @@ int main(){
 		
 		printf("\n(m:millas g:galones p:pulgadas f:pies s:salida)\n");
 		printf("Escribe el tipo de unidad y valor: ");
-		fgets(linea, sizeof(linea), stdin);
-		sscanf(linea, "%c %f", &tipode_unidad, &valor_unidad);
+		fgets(line, sizeof(line), stdin);
+		sscanf(line, "%c %f", &tipode_unidad, &valor_unidad);
 
 		
 		if ((tipode_unidad == 's') || (tipode_unidad == 'S')) {
