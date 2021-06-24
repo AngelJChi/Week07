@@ -2,7 +2,7 @@
 
 int main(){
 
-	char linea[100];
+	char line[100];
 
 	float valor;
 
@@ -13,8 +13,8 @@ int main(){
 	while (1) {
 
 		printf("Escriba el valor o 0 para salir: ");
-		fgets(linea, sizeof(linea), stdin);
-		sscanf(linea, "%f", &valor);
+		fgets(line, sizeof(line), stdin);
+		sscanf(line, "%f", &valor);
 
 		if (valor == 0.0) {
 			printf(" %d positivo visto, %d numeros negativos\n",
