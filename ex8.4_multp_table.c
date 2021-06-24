@@ -2,12 +2,14 @@
 
 int main(){
 
+	char line;
 	char seguir;
 	int i, numero;
 
 	
 	printf( "\n   Introduzca un numero entero: \n" );
-	scanf( "%d", &numero );
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%d", &numero );
 
 	printf( "\n   La tabla de multiplicar del %d es: \n", numero );
 
