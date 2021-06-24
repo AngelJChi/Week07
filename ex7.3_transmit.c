@@ -16,13 +16,13 @@ int main(){
 	int minutos;
 	int segundos;
 
-	char linea[100];
+	char line[100];
 
 	int tamaño_archivo;
 
 	printf("Escriba el tamaño del archivo en bytes: ");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, %d, &tamaño_archivo);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, %d, &tamaño_archivo);
 
 	printf("DEBUG:main(): el tamaño_archivo es %d\n", tamaño_archivo);
 
