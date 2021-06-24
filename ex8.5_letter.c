@@ -2,10 +2,12 @@
 
 int main(){
 
+	char line;
 	char letra;
 
 	printf("Escriba una letra: \n");
-	scanf("%c", &letra);
+	fgets(line, sizeof(line), stdin);
+	sscanf("%c", &letra);
 
 	if (	letra == 'a' || letra == 'A' ||
 		letra == 'e' || letra == 'E' ||
