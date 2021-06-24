@@ -2,7 +2,7 @@
 
 int main(){
 
-	char line;
+	char line[100];
 	char seguir;
 	int i, numero;
 
