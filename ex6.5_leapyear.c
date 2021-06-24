@@ -2,13 +2,13 @@
 
 int main(){
 
-	char linea[100];
+	char line[100];
 	int year;
 	int leapyear;
 
 	printf("Escribe el year");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, "%d", &year);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%d", &year);
 
 	if (year % 4 == 0){
 		leapyear = 1;
