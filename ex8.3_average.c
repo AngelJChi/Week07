@@ -3,11 +3,13 @@
 int main(){
 
 
+	char line[100];
 	int i,n,sum=0,numeros;
 	float promedio;
 
 	printf("\nEscriba cuantos numeros quiere\n");
-	scanf("%d",&n);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%d",&n);
 
 	printf("Escriba los numeros uno por uno\n\n");
 	for(i=0;i<n;++i) {
