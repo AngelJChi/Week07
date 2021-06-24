@@ -5,11 +5,11 @@ int main(){
 	int porcentaje_correcto;
 	char calificacion;
 	char modificador;
-	char linea[100];
+	char line[100];
 
 	printf("Escriba el porcentaje correcto: ");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, "%d", &porcentaje_correcto);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%d", &porcentaje_correcto);
 
 	modificador = '';
 
