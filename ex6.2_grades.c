@@ -7,8 +7,8 @@ int main(){
 	char linea[100];
 
 	printf("Escribre el porcentaje correcto: ");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, "%f", &porcentaje_correcto);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%f", &porcentaje_correcto);
 
 	if (porcentaje_correcto >= 91.0) {
 		calificacion = 'A';
