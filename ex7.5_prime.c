@@ -2,7 +2,7 @@
 
 int main(){
 
-	char linea[100];
+	char line[100];
 
 	int numero;
 	int factor;
@@ -12,8 +12,8 @@ int main(){
 
 	
 	printf("Escriba un numero: ");
-	fgets(linea, sizeof(linea), stdin);
-	sscanf(linea, "%d", &numero);
+	fgets(line, sizeof(line), stdin);
+	sscanf(line, "%d", &numero);
 
 	factor = 2;
 	ultimo_factor = numero - 1;
