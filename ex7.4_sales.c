@@ -4,7 +4,7 @@
 
 int main(){
 
-	char liena[100];
+	char line[100];
 
 	float cantidad;
 	float impuesto;
@@ -16,8 +16,8 @@ int main(){
 	while (1){
 
 		printf("\nEscriba la cantidad o 0 para salir: ");
-		fgets(linea, sizeof(linea), stdin);
-		sscanf(linea, "%f", &cantidad);
+		fgets(line, sizeof(line), stdin);
+		sscanf(line, "%f", &cantidad);
 
 		if (cantidad == 0.0) {
 			printf("Saliendo.\n");
